@@ -24,7 +24,7 @@
 
   gtag('config', 'G-8MB2BXGPZR');
 </script>
-
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -41,31 +41,33 @@
             <a href="contact.html">contact</a>
             <a href="register.html">register</a>
         </nav>
-    </header>
-    <div class="wrapper">
-        <h2>contact us form</h2>
-        <div class="form">
-            <div class="form_container">
-                <div class="form_left">
-                    <div class="input_field">
-                        <input type="text" placeholder="Your Name*" required>
+        <header class="header"></header>
+        <div class="wrapper">
+            <h2>Contact Us Form</h2>
+            <div class="form">
+                <div class="form_container">
+                    <div class="form_left">
+                        <div class="input_field">
+                            <input type="text" id="name-input" placeholder="Your Name*" required>
+                        </div>
+                        <div class="input_field">
+                            <input type="email" id="email-input" placeholder="Your Email*" required>
+                        </div>
+                        <div class="input_field">
+                            <input type="tel" id="phone-input" placeholder="Your Phone*" required>
+                        </div>
                     </div>
-                    <div class="input_field">
-                        <input type="z" placeholder="Your Email*" required>
-                    </div>
-                    <div class="input_field">
-                        <input type="text" placeholder="Your Phone*" required>
+                    <div class="form_right">
+                        <textarea id="message-input" placeholder="Your Message*" required></textarea>
                     </div>
                 </div>
-                <div class="form_right">
-                    <textarea placeholder="Your Message*" required></textarea>
+                <div class="btn">
+                    <button id="send-button">Send Message</button>
                 </div>
-            </div>
-            <div class="btn">
-                <a href="report.html">Send Message</a>
             </div>
         </div>
-    </div>
+    
+        <script src="script.js"></script>
 </body>
 </html>
 
