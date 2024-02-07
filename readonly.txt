@@ -1,6 +1,11 @@
 how to submit
 
-ؤ
+git init
+
+git add -A
+
 git commit -m 'Added my project'
 
-git push
+git remote add origin git@github.com:sammy/my-new-project.git
+
+git push -u -f origin main
