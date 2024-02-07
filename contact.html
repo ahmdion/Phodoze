@@ -43,29 +43,35 @@
         </nav>
     </header>
     <div class="wrapper">
-        <h2>contact us form</h2>
+        <h2>Contact Us Form</h2>
         <div class="form">
-            <div class="form_container">
-                <div class="form_left">
-                    <div class="input_field">
-                        <input type="text" placeholder="Your Name*" required>
-                    </div>
-                    <div class="input_field">
-                        <input type="email" placeholder="Your Email*" required>
-                    </div>
-                    <div class="input_field">
-                        <input type="number" placeholder="Your Phone*" maxlength="10" required>
-                    </div>
-                </div>
-                <div class="form_right">
-                    <textarea placeholder="Your Message*" required></textarea>
-                </div>
+          <div class="form_container">
+            <div class="form_left">
+              <div class="input_field">
+                <input type="text" placeholder="Your Name*" required>
+              </div>
+              <div class="input_field">
+                <input type="email" placeholder="Your Email*" required>
+              </div>
+              <div class="input_field">
+                <input type="number" placeholder="Your Phone*" maxlength="10" required>
+              </div>
             </div>
-            <div class="submit">
-                <a href="report.html">Send Message</a>
+            <div class="form_right">
+              <textarea placeholder="Your Message*" required></textarea>
             </div>
+          </div>
+          <div class="submit">
+            <a href="#" onclick="sendMessage()">Send Message</a>
+          </div>
         </div>
-    </div>
+      </div>
+      
+      <script>
+        function sendMessage() {
+          window.location.href = "report.html";
+        }
+      </script>
 </body>
 </html>
 
