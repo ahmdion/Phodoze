@@ -1,7 +1,6 @@
 how to submit
 
-git add -A
-
+ؤ
 git commit -m 'Added my project'
 
 git push
